@@ -1,2 +1,2 @@
 #!/bin/bash
-tr < "c" -delete
+tr -d "cC"
