@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# print items in directory
+
+for item in *; do
+echo "${item#*-}"; done
